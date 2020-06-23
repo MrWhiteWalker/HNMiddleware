@@ -1,0 +1,14 @@
+hackerNews:
+  baseUrl: https://hacker-news.firebaseio.com/v0
+  relativeUrl:
+    item: /item/%d.json
+    user: /user/%s.json
+    topItems: /topstories.json
+  topItems:
+    limit: 10
+  topComments:
+    limit: 10
+  cache:
+    user:
+      ttl_days: 30
+    ttl: 10
